@@ -294,6 +294,7 @@ input:checked + .burger-toggle .burger-bar:nth-child(3) {
 /* single intro */
 .single__intro {
   position: relative;
+  overflow: hidden;
 }
 
 .single__intro-container {
@@ -381,6 +382,7 @@ input:checked + .burger-toggle .burger-bar:nth-child(3) {
 /* single work */
 .single__work {
   position: relative;
+  overflow: hidden;
   padding-block: clamp(3.75rem, 1.5rem + 11.25vw, 15rem);
 }
 
@@ -439,6 +441,7 @@ input:checked + .burger-toggle .burger-bar:nth-child(3) {
 /* single challenges */
 .single__challenges {
   position: relative;
+  overflow: hidden;
   padding-block: 80px;
 }
 
@@ -467,7 +470,9 @@ input:checked + .burger-toggle .burger-bar:nth-child(3) {
 .single__tech {
   padding-block: clamp(3.75rem, 1rem + 13.75vw, 17.5rem);
   position: relative;
+  overflow: hidden;
 }
+
 .single__tech-container {
   display: flex;
   flex-direction: column;
@@ -514,6 +519,7 @@ input:checked + .burger-toggle .burger-bar:nth-child(3) {
 /* contact */
 .contact {
   position: relative;
+  overflow: hidden;
   padding-top: clamp(4.375rem, 4rem + 1.88vw, 6.25rem);
   padding-bottom: clamp(4.063rem, 2.75rem + 6.56vw, 10.625rem);
 }

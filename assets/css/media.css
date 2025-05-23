@@ -182,6 +182,12 @@
   .footer__bottom-block:last-child {
     justify-content: flex-start;
   }
+
+  @media (max-width: 768px) {
+    .blur-animation {
+      animation: none !important;
+    }
+  }
 }
 
 @media (max-width: 600px) {
